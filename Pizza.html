@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <style>
+            body {background-color: lightgray;}
+        </style>
+    </head>
+    <body>
+        <b>
+            <fieldset>
+                <legend align="center">PIZZA ORDER FORM</legend>
+            <fieldset>
+                <legend>Delivery Address</legend>
+                <table width="100%" border="0" cellpadding="2">
+                    <tr>
+                        <td>
+                            <p>Full Name: <input type="text" name="fullname" placeholder="Full Name" style="margin-left: 83px"></p>
+                            <p>Phone: <input type="text" name="phone" placeholder="Phone" style="margin-left: 110px"></p>
+                            <p>Password: <input type="password" name="password" placeholder="Password" style="margin-left: 85px"></p>
+                            </td>
+                        <td>
+                            <p>Street Address: <input type="text" name="street" placeholder="Address" style="margin-left: 85px"></p>
+                            <p>Email: <input type="email" name="email" placeholder="Email" style="margin-left: 140px"></p>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Payment Information</legend>
+                <table width="100%" border="0" cellpadding="2">
+                    <tr>
+                        <td>
+                            <p>Card Type: <select style="margin-left: 120px">
+                            <option value="visa">Visa</option></select></p>
+                            <p>Name on Card: <input type="text" name="cardname" placeholder="Name" style="margin-left: 90px"></p>
+                        </td>
+                        <td>
+                            <p>Card Number: <input type="text" name="cardnumber" placeholder="Card Number" style="margin-left: 90px"></p>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>customize Your Pizza</legend>
+                <table width="100%" border="0" cellpadding="2">
+                    <tr>
+                        <td>
+                            <p>pizza size: <select style="margin-left: 90px"> <option value="large">Large</option></select></p>
+                            <p>
+                                Spices: <strong style="margin-left: 90px"></strong>
+                                Black Pepper <input type="checkbox" name="spices" value="blackpepper">
+                                Bell Pepper <input type="checkbox" name="spices" value="bellpepper">
+                                Mayonaise <input type="checkbox" name="spices" value="mayonaise">
+                            </p>
+                            <p>Other requirements: <textarea name="requirements" placeholder="Any other requirements" style="margin-left:90px" cols="30" rows="3">
+                            </textarea></p>
+                        </td>
+                        <td>
+                            <p>Quantity: <input type="text" name="quantity" style="margin-left:90px"></p>
+                            <p>
+                                Meat: <strong style="margin-left: 90px"></strong>
+                                Fish <input type="radio" name="meat" value="fish">
+                                Cow <input type="radio" name="meat" value="cow">
+                                Chicken <input type="radio" name="meat" value="chicken">
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <b><button type="clear Order" style="margin-left: 50px"> Clear Order</button></b>
+           <b> <button type="place Order"  style="margin-left: 20px">Place Order</button></b>
+            </fieldset>
+        </b>          
+    </body>
+</html>
